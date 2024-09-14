@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+.container{
+    background-color: white;
+    width: 400px;
+ margin-left: 500px;
+ margin-top: 200px;
+ border-radius: 10%;
+}
+.head{
+    height: 44px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5%;
+}
+.textEnter{
+    text-align: center;
+    margin-top: 10px;
+}
+input{
+    width: 340px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 3%;
+}
+.output{
+    text-align: center;
+    margin-top: 10px;
+}
+p{
+    font-weight: 700;
+    font-size: x-large;
+    margin-top: 10px;
+}
+.outputText{
+    text-align: center;
+    margin-top: 10px;
+}

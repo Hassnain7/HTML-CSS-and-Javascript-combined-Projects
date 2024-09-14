@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navContainer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: fixed;
+    width: 1300px;
+}
+
+a{
+    color: white;
+}
+img{
+    background-size: cover;
+    width: 1366px;
+    height: 500px;
+}
+.LogoText{
+    font-size:120px;
+    color: yellow;
+    font-family:fantasy;
+     text-align: center;
+     margin-top: -900px;
+     margin-left: 440px;
+}

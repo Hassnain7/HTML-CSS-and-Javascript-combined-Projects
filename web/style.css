@@ -1,0 +1,53 @@
+*{color:white;
+
+}
+#navbar{
+    height: 60px;
+    background-color: black;
+}
+#b1{
+    background-color: yellow;
+}
+#logo{
+    color: yellow;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+}
+#heading1{
+    color: rgb(158, 179, 84);
+}
+p{
+    color:darkgrey;
+}
+button{
+    color:blueviolet;
+    background-color: chocolate;
+}
+body{
+    background-color:chartreuse;
+}
+#Box{
+    background-color: blue;
+    color: white ;
+}
+.heading{
+    color: red;
+}
+p{
+    color: black;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration: black underline;
+}
+h2{text-decoration: overline;}
+a{
+    text-decoration: none;
+}
+#one{
+    font-family:arial;
+    font-size: 2px;
+}

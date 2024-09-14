@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: rgb(13, 13, 41);
+    color: white;
+    text-align:center;
+    height: 5rem;
+    line-height: 5rem;
+    width: 1500px;
+}
+.choices{
+    height: 300px;
+    width: 1500px;
+    display: flex;
+
+}
+.Rock{
+    height: 160px;
+    width: 150px;
+    background-image: url("rock.png");
+    background-size: 230px;
+    object-fit: cover;
+    margin-left: 400px;
+    border-radius: 50%;
+    background-position: -33px;
+    margin-top: 70px;
+}
+.Paper{
+    height: 160px;
+    width: 150px;
+    background-image: url("paper.png");
+    margin-left: 120px;
+    background-size: 230px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-position: -37px;
+    margin-right: 130px;
+    margin-top: 70px;
+
+}
+.Scissors{
+    height: 160px;
+    width: 150px;
+    background-image: url("scissors.png");
+    background-size: 230px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-position: -39px;
+    margin-top: 70px;
+}
+.Rock:hover{
+    opacity: 0.5;
+}
+.Paper:hover{
+    opacity: 0.5;
+}
+.Scissors:hover{
+    opacity: 0.5;
+}
+.score{
+    display: flex;
+    font-size: xx-large;
+}
+.interface{
+    display: flex;
+}
+.you{
+    margin-left: 600px;
+   font-size: larger;
+}
+.opp{
+    margin-left: 190px;
+    font-size: larger;
+}
+.your-score{
+    margin-top: 10px;
+    margin-left: 600px;
+    font-weight: 700;
+    font-size: x-large;
+
+}
+.opp-inter{
+    margin-top: 10px;
+    margin-left: 170px;
+    font-weight: 700;
+    font-size: x-large;
+}
+.message{
+    margin-top: 60px;
+    margin-left: 640px;
+    width: 170px;
+    height: 100px;
+}
+.msg{
+    color: white;
+    background-color: black;
+    font-family: bold;
+    height:100px;
+    font-size:x-large;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10%;
+    display: inline;
+    
+}

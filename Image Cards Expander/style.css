@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+   gap: 1.2rem;
+    justify-content: space-evenly;
+    
+   
+}
+.imgContainer{
+   filter:grayscale(1);
+   transition: flex 0.5s ease-in-out;
+}
+.active{
+    flex:2;
+    filter: grayscale(0);
+}
+#img1{
+    background-image: url("mumbai.jpg");
+    background-size: cover;
+    height: 97vh;
+    margin-top: 3px;
+    width: 137px;
+}
+#img2{
+    background-image: url("quebec.jpg");
+   background-size: cover;
+    height: 97vh;
+    margin-top: 3px;
+    width: 137px;
+}
+#img3{
+    background-image: url("bangkok.jpg");
+    background-size: cover;
+    height: 97vh;
+    margin-top: 3px;
+    width: 137px;
+}
+#img4{
+    background-image: url("spain.jpg");
+    background-size: cover;
+    height: 97vh;
+    margin-top: 3px;
+    width: 137px;
+}
+#img5{
+    background-image: url("tokyo.jpg");
+    background-size: cover;
+    height: 97vh;
+    margin-top: 3px;
+    width: 137px;
+}
+h2{
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    color: white;
+}

@@ -1,0 +1,56 @@
+
+
+body{
+    background-color: aqua;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+   
+}
+#box{
+    height: 18vmin;
+    width:18vmin;
+    border-radius: 20%;
+    background-color: rgb(233, 233, 160);
+    color: red;
+    font-weight: 700;
+    font-size: x-large;
+}
+.msg{
+  height: 70px;
+  width: 77%;
+  
+  
+}
+
+p{
+    margin-left: 900px;
+   margin-top: -300px;
+    height: 20px;
+    padding: 1rem;
+    background-color: black;
+    color: azure;
+    border-radius: 40%;
+}
+.check{
+    margin-top: 230px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.new{
+    height: 70px;
+    width: 77%;
+}
+.new1{
+    margin-top: -170px;
+}
